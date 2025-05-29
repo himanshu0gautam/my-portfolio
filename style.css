@@ -66,7 +66,7 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(portfolio8.png) no-repeat;
+    background: url(m.png) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -881,4 +881,46 @@ section{
     flex-direction: column;
     gap: 2rem;
     padding-bottom: 10rem;
+}
+
+
+ /* ----------------------------------css for small screens----------------------- */
+
+
+
+ @media only screen and (max-width: 600px){
+    .home{
+        background: url(phooto6.png) no-repeat;
+    } 
+    .home-content h1{
+        margin-top: 50%;
+        font-size: 20px;
+    }
+
+    .home-content h3{
+        font-size: 26px;
+    }
+
+    .home-content .text{
+        font-size: 18px;
+    }
+
+    .home-contentp{
+        font-size: 25px;
+    }
+
+    .home-sci a{
+        font-size: 12px;
+        border-radius: 50%;
+    }
+
+    .home-content i{
+        font-size: 12px;
+    }
+
+    .home-content .btn-box{
+        font-size: 12px;
+    }
+
+
 }
