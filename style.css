@@ -68,7 +68,7 @@ body{
     /* width: 100%; */
     justify-content: space-between;
     height: 100vh;
-    background: url(m.png) no-repeat;
+    background: url(/assets/m.png) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -895,7 +895,7 @@ section{
 
  @media only screen and (max-width: 600px){
     .home{
-        background: url(phooto6.png) no-repeat;
+        background: url(/assets/phooto6.png) no-repeat;
     } 
     .home-content h1{
         margin-top: 50%;
