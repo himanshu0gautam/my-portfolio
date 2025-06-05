@@ -6,9 +6,23 @@
 //     loop:true
 // }); 
 
+
+// Initialize Lenis
+const lenis = new Lenis({
+  lerp: 0.1,
+  duration: 2, // Duration of the scroll animation in seconds
+  autoRaf: true,
+});
+
+// Listen for the scroll event and log the event data
+lenis.on('scroll', (e) => {
+  console.log(e);
+});
+
+
 window.onload = function() {
     var typed = new Typed('.text', {
-      strings: ["Frontend Developer", "Web Developer"],
+      strings: ["Full stack Developer"],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,

@@ -29,21 +29,23 @@ body{
 }
 
 .logo{
+    text-transform:capitalize;
     position: relative;
-    font-size: 25px;
+    font-size: 3vw;
     color: #fff;
     text-decoration: none;
     font-weight: 600;
     cursor: default;
     margin: 15px; 
-    opacity: 0;
+    opacity: .1;
     animation: slideRight 1s ease forwards;
 }
 
 
 .navbar a{
+    margin-top: 13px;
     display: inline-block;
-    font-size: 25px;
+    font-size: 2vw;
     color: #fff;
     text-decoration: none;
     font-weight: 450;
@@ -51,7 +53,7 @@ body{
     /* margin-right: 20%; */
     transition: .3s;
     /* justify-content: space-between; */
-    opacity: 0;
+    opacity: .1;
     animation: slideTop .5s ease forwards;
     animation-delay: calc(.2s * var(--i));
 
@@ -63,7 +65,7 @@ body{
 
 .home{
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     justify-content: space-between;
     height: 100vh;
     background: url(m.png) no-repeat;
@@ -244,7 +246,7 @@ body{
 }
 
 .container{
-    padding: 90px;
+    padding: 30px;
 }
 
 .services-list{
@@ -322,14 +324,15 @@ body{
 
 section{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .container1{
     width: 600px;
     height: 500px;
     padding: 75px 90px;
-    margin-left: 120px;
+    margin-left: 30px;
 }
 
 .heading1{
@@ -603,6 +606,8 @@ section{
 }
 
 .row{
+        /* height: 70%;
+        width: 100%; */
     position:relative;
     overflow: hidden;
     border-radius: 8px;
